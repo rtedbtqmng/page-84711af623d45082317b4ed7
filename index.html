@@ -1,0 +1,304 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>快连（letsvpn）— 先弄明白，再决定要不要用</title><meta name="description" content="快连（letsvpn）用朋友式的口吻，把三档订阅、设备数、流量额度和使用步骤一次讲清楚，还附上你真正会问的那些问题。"><meta name="keywords" content="快连, letsvpn, 快连套餐, 快连使用说明, 快连常见问题, 网络工具订阅"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-1dddcf6c05.yongchunfc.cn/"><meta property="og:type" content="website"><meta property="og:title" content="快连（letsvpn）— 先弄明白，再决定要不要用"><meta property="og:description" content="快连（letsvpn）用朋友式的口吻，把三档订阅、设备数、流量额度和使用步骤一次讲清楚，还附上你真正会问的那些问题。"><meta property="og:url" content="https://p-1dddcf6c05.yongchunfc.cn/"><meta property="og:site_name" content="快连(letsvpn)"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-1dddcf6c05.yongchunfc.cn/", "name": "快连（letsvpn）— 先弄明白，再决定要不要用", "description": "快连（letsvpn）用朋友式的口吻，把三档订阅、设备数、流量额度和使用步骤一次讲清楚，还附上你真正会问的那些问题。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="84711af623d45082317b4ed7:13094b35b3ba1658eea5d0482f6e065c20aefcf15e5716fa30997d80c8d8c47d:de4f8d21a1be9f4dab5d"></head><body id="top"><style>
+  :root{--paper:#f6f1e8;--paper-deep:#eee6d8;--ink:#26211d;--ink-soft:#5b524a;--brick:#b03a25;--brick-dark:#8e2c1b;--line:#26211d}
+  *{box-sizing:border-box}
+  html{}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Songti SC","STSong","Noto Serif CJK SC",Georgia,serif;font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased}
+  a{color:var(--brick-dark);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  .shell{display:block;max-width:1180px;margin:0 auto;padding:0 20px}
+
+  /* ---------- 左侧竖排目录 ---------- */
+  .rail{display:none}
+  @media (min-width:900px){
+    .shell{display:grid;grid-template-columns:190px minmax(0,1fr);gap:48px;padding:0 32px}
+    .rail{display:block;position:sticky;top:0;align-self:start;height:100vh;padding:44px 0 32px;border-right:2px solid var(--line)}
+    .rail-brand{display:block;writing-mode:vertical-rl;letter-spacing:.32em;font-size:15px;font-weight:700;color:var(--brick);margin-bottom:28px}
+    .rail ol{list-style:none;margin:0;padding:0;counter-reset:rail}
+    .rail li{counter-increment:rail;margin:0 0 15px;font-size:14px;line-height:1.4}
+    .rail li::before{content:counter(rail,decimal-leading-zero);display:block;font-size:11px;letter-spacing:.18em;color:var(--brick);font-family:ui-monospace,"SFMono-Regular",Menlo,monospace}
+    .rail a{color:var(--ink-soft)}
+    .rail a:hover{color:var(--brick-dark)}
+    .rail-foot{position:absolute;bottom:32px;left:0;font-size:11px;letter-spacing:.14em;color:#9a8f83}
+  }
+  @media (max-width:899px){
+    .rail{display:block;border-bottom:2px solid var(--line);padding:16px 0 14px;margin-top:0}
+    .rail-brand{display:inline-block;font-size:13px;letter-spacing:.24em;color:var(--brick);font-weight:700;margin-bottom:10px}
+    .rail ol{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;margin:0;padding:0;font-size:13px}
+    .rail li::before{content:none}
+    .rail a{color:var(--ink-soft)}
+    .rail-foot{display:none}
+  }
+
+  main{padding:0 0 72px}
+
+  /* ---------- 首屏：纵向时间线引入 ---------- */
+  .hero{padding:44px 0 8px;border-bottom:2px solid var(--line)}
+  .kicker{display:inline-block;font-size:12px;letter-spacing:.28em;color:var(--brick);font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;margin-bottom:18px}
+  h1{font-size:clamp(30px,6.2vw,58px);line-height:1.2;margin:0 0 18px;letter-spacing:-.01em;font-weight:700}
+  .lede{font-size:clamp(16px,2vw,19px);color:var(--ink-soft);max-width:34em;margin:0 0 34px}
+  .timeline{list-style:none;margin:0 0 40px;padding:0;border-left:2px solid var(--line);margin-left:10px}
+  .timeline li{position:relative;padding:0 0 30px 30px}
+  .timeline li:last-child{padding-bottom:8px}
+  .timeline li::before{content:"";position:absolute;left:-9px;top:8px;width:16px;height:16px;background:var(--paper);border:2px solid var(--brick)}
+  .timeline .step-no{display:block;font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:12px;letter-spacing:.2em;color:var(--brick);margin-bottom:4px}
+  .timeline h3{font-size:19px;margin:0 0 6px;font-weight:700}
+  .timeline p{margin:0;color:var(--ink-soft);max-width:36em;font-size:15px}
+
+  /* ---------- 通用区块 ---------- */
+  section{padding:56px 0;border-bottom:2px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  .section-label{font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:12px;letter-spacing:.24em;color:var(--brick);margin:0 0 10px}
+  h2{font-size:clamp(23px,3.6vw,32px);line-height:1.3;margin:0 0 16px;font-weight:700}
+  .section-intro{color:var(--ink-soft);max-width:38em;margin:0 0 34px}
+
+  /* ---------- 粗描边直角卡片 ---------- */
+  .frame{border:2px solid var(--line);background:var(--paper);padding:22px 22px 20px}
+  .frame + .frame{margin-top:18px}
+
+  /* ---------- 套餐：纵向列表逐行展开 ---------- */
+  .plan{border:2px solid var(--line);padding:0;margin-bottom:18px;background:var(--paper)}
+  .plan.featured{border-color:var(--brick);background:var(--paper-deep)}
+  .plan-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 18px;padding:18px 22px;border-bottom:2px solid var(--line)}
+  .plan.featured .plan-head{border-bottom-color:var(--brick)}
+  .plan-name{font-size:20px;font-weight:700;margin:0;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .tag{font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:11px;letter-spacing:.16em;background:var(--brick);color:var(--paper);padding:3px 8px;font-weight:400}
+  .plan-price{font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:17px;letter-spacing:.02em}
+  .plan-price .unit{font-size:13px;color:var(--ink-soft)}
+  .plan-body{padding:16px 22px 20px}
+  .plan-annual{font-size:14px;color:var(--brick-dark);margin:0 0 14px}
+  .plan-body ul{margin:0;padding:0;list-style:none}
+  .plan-body li{position:relative;padding-left:20px;font-size:15px;color:var(--ink-soft);margin-bottom:7px}
+  .plan-body li::before{content:"—";position:absolute;left:0;color:var(--brick)}
+
+  /* ---------- 客户端 ---------- */
+  .client-grid{display:grid;gap:18px;grid-template-columns:1fr}
+  @media (min-width:680px){
+    .client-grid{grid-template-columns:1fr 1fr}
+  }
+  .client-grid h3{font-size:17px;margin:0 0 8px}
+  .client-grid p{margin:0 0 10px;font-size:15px;color:var(--ink-soft)}
+  .client-grid .note{font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:12px;letter-spacing:.06em;color:var(--brick-dark);margin:0}
+
+  /* ---------- FAQ 编号列表 ---------- */
+  .faq{list-style:none;margin:0;padding:0;counter-reset:faq}
+  .faq > li{counter-increment:faq;border-top:2px solid var(--line);padding:22px 0}
+  .faq > li:last-child{border-bottom:2px solid var(--line)}
+  .q{display:flex;gap:14px;align-items:baseline;font-size:17px;font-weight:700;margin:0 0 8px;line-height:1.5}
+  .q::before{content:counter(faq,decimal-leading-zero);flex:0 0 auto;font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:13px;letter-spacing:.1em;color:var(--brick);font-weight:400}
+  .a{margin:0 0 0 34px;color:var(--ink-soft);font-size:15px;max-width:40em}
+
+  /* ---------- 使用说明补充 / 收尾 ---------- */
+  .outro{border:2px solid var(--brick);padding:26px 24px;background:var(--paper-deep)}
+  .outro h2{margin-top:0}
+  .outro p{margin:0 0 12px;color:var(--ink-soft)}
+  .outro p:last-child{margin-bottom:0}
+  .outro strong{color:var(--ink)}
+
+  footer{padding:34px 0 46px;font-size:13px;color:#8b8177}
+  footer p{margin:0 0 6px}
+</style><div class="shell">
+
+  <nav class="rail" aria-label="页面目录">
+    <span class="rail-brand">快连 · letsvpn</span>
+    <ol>
+      <li><a href="#start">为什么从这页开始</a></li>
+      <li><a href="#plans">三档订阅</a></li>
+      <li><a href="#clients">客户端与设备</a></li>
+      <li><a href="#usage">上手顺序</a></li>
+      <li><a href="#faq">常见问题</a></li>
+    </ol>
+    <span class="rail-foot">LETSVPN · 说明页</span>
+  </nav>
+
+  <main>
+
+    <header class="hero" id="start">
+      <span class="kicker">先弄明白，再付款</span>
+      <h1>快连(letsvpn) · 快连（letsvpn）：把订阅这件事，顺着时间线聊清楚</h1>
+      <p class="lede">很多朋友第一次打开订阅页，看到「基础版、旗舰版、团队版」三个名字，第一反应是——差的到底是哪一档？这页不绕弯子，从你打开页面的那一刻开始，一格格往下走。</p>
+
+      <ol class="timeline">
+        <li>
+          <span class="step-no">01</span>
+          <h3>你大概是先想知道：这东西是干嘛的</h3>
+          <p>快连（letsvpn）是一个网络访问工具，用订阅制提供服务。你能选的只有三档套餐，差别集中在每月流量额度、可同时在线的设备数，以及节点线路的使用范围上。没有隐藏的第四档。</p>
+        </li>
+        <li>
+          <span class="step-no">02</span>
+          <h3>接着你会想：我一个人用，还是家里一起用</h3>
+          <p>这个问题基本决定了答案。一个人、前台后台来回切，基础版够。手机、平板、办公电脑加一台备用机同时在线的，直接看旗舰版。至于团队版，它是给一群人共用一个账号的场景准备的。</p>
+        </li>
+        <li>
+          <span class="step-no">03</span>
+          <h3>再往后：付月付还是年付</h3>
+          <p>月付灵活，年付更省。三档套餐都提供年付价格，相当于十个月的价钱。如果你是第一次用、心里还没底，先按月付走一轮，觉得合适再换年付，这个顺序更稳妥。</p>
+        </li>
+        <li>
+          <span class="step-no">04</span>
+          <h3>最后：装在哪台设备上</h3>
+          <p>订阅开通后，你会拿到账号。账号本身不绑定某一台机器，你能同时登录的设备台数，由你所选的套餐决定，超出就没法再加了。</p>
+        </li>
+      </ol>
+    </header>
+
+    <section id="plans">
+      <p class="section-label">订阅与价格</p>
+      <h2 id="plans-title">三档订阅，逐条摊开来看</h2>
+      <p class="section-intro">价格是明码标出来的，权益也一条一条列出来。你可以对着自己的设备数和使用强度直接比对，不用问客服。</p>
+
+      <article class="plan">
+        <div class="plan-head">
+          <h3 class="plan-name">基础版</h3>
+          <span class="plan-price">¥15<span class="unit">/月</span></span>
+        </div>
+        <div class="plan-body">
+          <p class="plan-annual">按年付仅需 ¥150/年</p>
+          <ul>
+            <li>每月 100GB 极速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="plan featured">
+        <div class="plan-head">
+          <h3 class="plan-name">旗舰版 <span class="tag">多数人的选择</span></h3>
+          <span class="plan-price">¥35<span class="unit">/月</span></span>
+        </div>
+        <div class="plan-body">
+          <p class="plan-annual">按年付仅需 ¥350/年</p>
+          <ul>
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7x24 优先工单支持</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="plan">
+        <div class="plan-head">
+          <h3 class="plan-name">团队版</h3>
+          <span class="plan-price">¥85<span class="unit">/月</span></span>
+        </div>
+        <div class="plan-body">
+          <p class="plan-annual">按年付仅需 ¥850/年</p>
+          <ul>
+            <li>每月 1000GB 极速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="clients">
+      <p class="section-label">设备与客户端</p>
+      <h2 id="clients-title">你会把它装在哪几台设备上</h2>
+      <p class="section-intro">这里说明的是订阅层面的规则，不是某一个具体安装包的功能清单。客户端在各平台的安装方式，请以官方渠道公布的信息为准。</p>
+
+      <div class="client-grid">
+        <div class="frame">
+          <h3>手机：最常用的那一台</h3>
+          <p>手机通常是你最先登录的设备，也是占用在线名额最快的一台。如果你习惯手机长期挂着，记得把它算进你所选套餐的设备数里。</p>
+          <p class="note">建议：先在手机上跑通，再扩展到其他设备。</p>
+        </div>
+        <div class="frame">
+          <h3>电脑：办公和长连接</h3>
+          <p>桌面端适合长时间挂着，也方便你在工作间隙随手开合。如果你经常在电脑上看流媒体，旗舰版的流媒体解锁和更大流量额度会比基础版顺手很多。</p>
+          <p class="note">提示：桌面端和手机端会同时占用在线名额。</p>
+        </div>
+        <div class="frame">
+          <h3>平板与备用机</h3>
+          <p>平板常被当成“第二台手机”，备用机则容易在你不注意的时候一直挂着。基础版 3 台的名额，往往就是在这个环节被用完的。</p>
+          <p class="note">建议：定期检查哪些设备还处于在线状态。</p>
+        </div>
+        <div class="frame">
+          <h3>团队场景：一个人管一群人</h3>
+          <p>团队版支持 20 台设备同时在线，并配有专属客户经理与定制路由支持。适合固定班底、设备清单相对明确的场景，不适合临时拉一堆人共用一个账号。</p>
+          <p class="note">提示：20 台是上限，不是建议值。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="usage">
+      <p class="section-label">使用说明</p>
+      <h2 id="usage-title">从注册到稳定使用，按这个顺序走</h2>
+      <p class="section-intro">下面这几步是给第一次用的人写的。每一步都只做一件事，遇到问题也更容易定位在哪一环。</p>
+
+      <div class="frame">
+        <h3>第一步：先确定自己的设备清单</h3>
+        <p>拿张纸写下来——手机、电脑、平板、备用机，分别几台。这个数字直接决定你该选 3 台、5 台还是 20 台的那一档。很多人选完套餐才想起来还有一台工作电脑，这就比较被动了。</p>
+      </div>
+      <div class="frame">
+        <h3>第二步：估一下每月的流量需求</h3>
+        <p>只是日常网页、邮件和文档，100GB 通常用不完。如果你经常看高清视频、下大文件，或者家里几台设备一起用，往 300GB 那档看会更安心。流量是按每月额度计算的，这一点在选择前值得先算清楚。</p>
+      </div>
+      <div class="frame">
+        <h3>第三步：先月付，别急着年付</h3>
+        <p>第一次用的时候，按月付走一轮，看看线路在你所在的位置表现如何，再看看设备数够不够。确认合适了，再换成年付，把省下来的那两个月拿在手里。年付更适合已经用顺手的用户。</p>
+      </div>
+      <div class="frame">
+        <h3>第四步：把设备一台台加进来</h3>
+        <p>不要一次性把所有设备都登录上去。先加最常用的那台，确认一切正常，再加第二台。这样万一在线名额出问题，你一眼就能看出是哪台占的。</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <p class="section-label">常见问题</p>
+      <h2 id="faq-title">你八成会问到的几个问题</h2>
+      <p class="section-intro">按你可能会问的顺序排的，答案尽量直接，不写“具体请咨询客服”。</p>
+
+      <ol class="faq">
+        <li>
+          <h3 class="q">三档套餐最核心的差别是什么？</h3>
+          <p class="a">两个数字：每月流量额度和同时在线设备数。基础版是 100GB / 3 台，旗舰版是 300GB / 5 台，团队版是 1000GB / 20 台。其余权益是在这个基础上叠加的，比如流媒体解锁范围、专线优化和工单优先级。</p>
+        </li>
+        <li>
+          <h3 class="q">我一个人用，选旗舰版是不是浪费？</h3>
+          <p class="a">看你用得多不多。如果只是一台手机加一台电脑，看网页和文档为主，基础版就够了，没必要多花钱。但如果你经常在多个设备间切换、又常看高清内容，旗舰版的 300GB 和 5 台名额会省掉不少“该删哪台设备”的犹豫。</p>
+        </li>
+        <li>
+          <h3 class="q">年付能省多少？</h3>
+          <p class="a">三档都是十个月的价钱买一年：基础版 ¥150/年、旗舰版 ¥350/年、团队版 ¥850/年，相比按月付省下两个月。换算下来大约打了八三折，这是明面上的数字，没有别的隐藏折扣需要你去挖。</p>
+        </li>
+        <li>
+          <h3 class="q">设备数超了会怎么样？</h3>
+          <p class="a">套餐里的设备数是同时在线的上限，不是可以登录过的总数。超出之后，新增的设备无法继续同时在线。处理办法有两个：要么先退出一台不用的设备，要么升级到设备数更多的那一档。</p>
+        </li>
+        <li>
+          <h3 class="q">团队版适合什么样的人？</h3>
+          <p class="a">适合固定的小团队，比如几个人共用一个工作账号，设备清单明确、不会天天变。它有 20 台在线名额、VIP 节点和专属客户经理。如果是临时凑一堆人拼着用，人数一变就要重新协调，反而麻烦。</p>
+        </li>
+        <li>
+          <h3 class="q">我该在哪下载客户端？</h3>
+          <p class="a">这页不提供安装包，也不放第三方下载地址。请通过官方渠道获取客户端，避免拿到被改动过的版本。安装完成后，用你的订阅账号登录即可，账号本身不绑定单一设备。</p>
+        </li>
+        <li>
+          <h3 class="q">第一次用，最稳的做法是什么？</h3>
+          <p class="a">先月付基础版或旗舰版，跑满一个周期，看看流量够不够、设备数够不够、线路在你那边顺不顺手。确认之后，再换成年付把省下的两个月拿到手。先试再定，比一上来就买一年踏实得多。</p>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <div class="outro">
+        <h2 id="outro-title">说到底，先算清两件事</h2>
+        <p><strong>你的设备有几台，你每月用掉多少流量。</strong>这两个数字一出来，套餐基本就定了，不需要反复比较权益列表里的每一条。</p>
+        <p>如果你还在犹豫，就从基础版月付开始，把它当成一次试跑。合适就留，不合适就换，比一上来就押一年要轻松得多。</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>快连（letsvpn）· 订阅说明页</p>
+      <p>页面内容为套餐与使用方式的整理说明，价格与权益以官方公布为准。</p>
+    </footer>
+
+  </main>
+</div><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
